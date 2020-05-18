@@ -2,14 +2,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>{% if page.use-site-title %}{{ site.title }} {{ site.title-separator | default: '-' }} {{ site.description }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <title>{% if page.use-site-title %}{{ site.title }} {{ site.title-separator | default: '-' }} {{ site.description }}{% elsif page.mt %}{{ page.mt }}{% else %}{{ site.title }}{% endif %}</title>
   
   {% if site.author %}
   <meta name="author" content="{{ site.author }}">
   {% endif %}
   
-  {% if page.subtitle %}
-  <meta name="description" content="{{ page.subtitle }}">
+  {% if page.md %}
+  <meta name="description" content="{{ page.md }}">
   {% endif %}
 
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | default: 'Untitled' }} {{ site.title-separator | default: '-' }} {{ site.description }}" href="{{ '/feed.xml' | absolute_url }}">
