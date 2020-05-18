@@ -1,9 +1,9 @@
 ---
 layout: post
+url: seo-benchmark-at-scale
 title: How to perform a SEO Benchmark at scale
 subtitle: How to watch closely your competitors. 
 comments: true
-url: seo-benchmark-at-scale
 ---
 
 Whether you’re just starting out with your online business or you decide to revamp your SEO strategy from scratch to be more visible to your potential customers, analyzing your competitors is essential.
