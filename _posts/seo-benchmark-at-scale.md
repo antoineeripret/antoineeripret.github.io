@@ -37,7 +37,7 @@ To get that information, two options (the latter being the most efficient):
 
 - Crawl their websites using Screaming Frog, Oncrawl or whatever software you are the most comfortable with. I prefer the former as you can adjust configuration on-the-go, but it’s really up to you. If you decide to follow my suggestion, please be sure to have the following configuration under **Spider > Configuration > Crawl** because we don’t want to gather useless information for our benchmark, especially when we may have to crawl websites over 1M URLs. When the crawl is complete, **just export the internal URL report.** 
 
-![](C:\Users\antoi\Documents\GitHub\antoineeripret.github.io\assets\img\screaming-frog-configuration.png)
+![](../assets\img\screaming-frog-configuration.png)
 
 
 
@@ -62,7 +62,7 @@ Once you have all the crawl data, we must get the traffic estimates from SEMRUSH
 
 **Go to Organic Research, then the Pages tab and then export everything.** 
 
-![](C:\Users\antoi\Documents\GitHub\antoineeripret.github.io\assets\img\semrush-organic-report.png)
+![](../\assets\img\semrush-organic-report.png)
 
 
 
@@ -157,7 +157,7 @@ The result should be something like the image shown below, allowing you to quick
 
 
 
-![img](C:\Users\antoi\Documents\GitHub\antoineeripret.github.io\assets\img\results-comparison.png)
+![img](..\assets\img\results-comparison.png)
 
 
 
