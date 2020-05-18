@@ -201,7 +201,7 @@ company2_car_city[company2_car_city['ID'].isin(company1_car_city['ID'])==False].
 
 
 
-This part is awesome because if you are working for Avis, it will tell you which cities you don't have but for which Sixt is actually getting traffic. **Detecting missing cities for which you don’t have a page at the moment can be tricky because you are dealing with huge datasets. By using this technique, you can at least detect the most important ones quickly. **
+This part is awesome because if you are working for Avis, it will tell you which cities you don't have but for which Sixt is actually getting traffic. **Detecting missing cities for which you don’t have a page at the moment can be tricky because you are dealing with huge datasets. By using this technique, you can at least detect the most important ones quickly.**
 
 I applied this technique in several projects and it allowed us to detect key content for specific page types not being covered by our websites when we thought they were. We also discovered nice new opportunities that we don’t even had considered in the first place. 
 
