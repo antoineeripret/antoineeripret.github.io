@@ -13,8 +13,6 @@ author: Antoine Eripret
 
 navbar-links:
   About Me: "aboutme"
-  Blog: "blog"
-  Contact: "contact"
 
 # --- Logo --- #
 
@@ -41,7 +39,7 @@ social-network-links:
   twitter: antoineripret
   rss: false
 #  reddit: yourname
-#  linkedin: daattali
+  linkedin: antoineeripret
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78

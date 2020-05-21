@@ -1,32 +1,30 @@
 ---
 layout: post
-url: seo-benchmark-at-scale
-title: How to perform a SEO Benchmark at scale
+permalink: seo-benchmark-at-scale
+title: How to perform a SEO benchmark at scale
 subtitle: How to watch closely your competitors. 
 comments: true
 ---
 
 Whether you’re just starting out with your online business or you decide to revamp your SEO strategy from scratch to be more visible to your potential customers, analyzing your competitors is essential.
 
-Indeed, it’s a rather efficient way to understand what the others are doing better than yourself and if they already implemented a content idea your team and yourself have just come up with. 
+Indeed, it’s a rather efficient way to understand what the others are doing better than yourself and if they already implemented a part of the strategy your team and yourself have just come up with. 
 
 However, one of the main challenges to perform a relevant SEO benchmark is how can you analyze your competition at scale, meaning without having to look at their Ahrefs or SEMRUSH report line by line, especially when you are working for and competing against big brands. 
 
-**In this article, I’ll show you how you can benchmark your content against your competitors quickly.**
+**In this article, I’ll show you how you can benchmark your content against your competitors quickly. I won't cover the full benchmark process but explain how you can speed up a part of it.**
 
 
 
 ## Define your competition
 
-The first step is essential because you need to be sure to watch your main competitors and not websites that are not worth tracking. Please note that we are talking about your **online competitors**, and the list may differ from what you usually perceive as being your competition. 
+The first step is essential because you need to be sure to watch closely your main competitors and not websites that are not worth tracking. Please note that we are talking about your **online competitors**, and the list may differ from what you usually perceive as being your competition. 
 
-Let me give an example: if you are talking for a supermarket brand like Carrefour for instance, you wouldn't include in your benchmark any competitor that doesn't allow its customer to buy groceries online. It wouldn't make any sense. 
+Let me give an example: if you are working for a supermarket brand like Carrefour for instance, you wouldn't include in your benchmark any competitor that doesn't allow its customer to buy groceries online, It wouldn't make any sense. 
 
 If you are working for a pure player, you should be used to it but often brick-and-mortar business have a hard time understanding that online and offline competition are often different. 
 
-
-
-I would advise to try to come up with a short list (around 5) but **if you are competing against different websites depending on the segment, you can obviously define more**. 
+I would advise to try to come up with a short list (around 5) but **if you are competing against different websites depending on the segment, you can obviously define more**. Don't hesitate to include some small companies if you are a big brand, as they often implement things quickly and can quickly be on your tails on some queries. 
 
 
 
@@ -42,7 +40,7 @@ To get that information, two options (the latter being the most efficient):
 
 
 
-- If you know that your competitors have set up correctly their sitemaps, just enter the URL in the tool and copy-paste the list, you don’t even have to crawl them. 
+- If you know that your competitors have set up their sitemaps correctly, just enter the URL in the tool and copy-paste the list, you don’t even have to crawl them. 
 
 If you are not sure how to do it, please follow these steps: 
 
@@ -67,7 +65,7 @@ Once you have all the crawl data, we must get the traffic estimates from SEMRUSH
 
 
 
-Super simple, right? Yes, but so far we did nothing, so let’s start with what you are looking for! 
+Super simple, right? Yes, but so far we did nothing, so let’s start with what you are looking for! I would advise to use SEMRUSH data for your website as well, even if you have access to your real data. Why? Because **comparing estimates with real data may skew your analysis**. 
 
 
 
@@ -75,16 +73,16 @@ Super simple, right? Yes, but so far we did nothing, so let’s start with what 
 
 It is impossible to benchmark 1M+ URLs websites against themselves correctly without grouping URLs. What we’ll do is try to find a pattern in the URL structure & create groups for our competitors and ourselves. 
 
-Let me give you a concrete example: imagine that you need to categorize the URLs from the French website of Getaround (ex-Drivy). Let's look at 2 URLs from the list you would generate:  
+Let me give you a concrete example: imagine that you need to categorize the URLs from the Getaround's French website. Let's have a look at 2 URLs from the list you would generate:  
 
 https://fr.getaround.com/location-voiture/france/type/familiale
 https://fr.getaround.com/location-voiture/paris
 
-**We should be able to categorize all URLs following the same patter as Car/Type and Car/City for instance. ** We can identify these two patterns with a simple REGEX and then assign a category to our URLs. 
+**We should be able to categorize all URLs following the same pattern as Car/Type and Car/City for instance. ** We can identify these two patterns with a simple REGEX and then assign a category to our URLs. 
 
 
 
-We could do that under Excel or Google Sheets but I prefer to use Python because it offers the possibility of working with huge datasets without worrying about your computer to freeze completely. It's a matter of personal preference but you can apply the same technique in any other language you are comfortable with: **Python is a tool I like to be more efficient, but what really matters is the outcome**. 
+We could do that under Excel or Google Sheets but I prefer to use Python because it offers the possibility of working with huge datasets without worrying about your computer to freeze completely. It's a matter of personal preference but you can apply the same technique in any other language you are comfortable with: **Python is a tool I like to be more efficient, but what really matters is the outcome**.  
 
 
 
@@ -136,7 +134,7 @@ merge['pagetype'] = np.select(conditions, choices, default='None')
 
 What we basically do is creating an array of conditions to match different page types that a specific website has. **You can use simple or REGEX based conditions.** We then create an array of values: **if the first condition of the conditions array is respected, then the value of the new column we want to create will be the first as well, and so on**. The concept is pretty simple, isn’t it? This magic is possible thanks to the np.select part, where we add a default value as well. 
 
-Once you do that for your website and your competitors, you may want to know how many URLs each website has per page type. It’s a quick way to direct your analysis towards specific page types. **What we basically do is to count the number of URLs for every page type in our dataFrames, and then merge them all.** 
+Once you do that for your website and your competitors', you may want to know how many URLs each website has per page type. It’s a quick way to direct your analysis towards specific page types. **What we basically do is to count the number of URLs for every page type in our DataFrames, and then merge them all.** 
 
 
 
@@ -168,7 +166,7 @@ In our example, what we can see is that there is a big discrepancy between these
 
 To compare them **we need to be able to match content between competitors** and then extract what company 1 has that company 2 hasn't for instance. What you basically need to do is find, within the URL, a part to perform such action. 
 
-Let’s imagine now that we want to match contents between two of the biggest car rental companies worldwide: Sixt & Avis. In the previous step, we would have created a category called “Car/City” for instance, and we should have had these two URLs: 
+Let’s imagine now that we want to match contents between two of the biggest car rental companies worldwide: Sixt & Avis. In the previous step, we would have created a category called “Car/City”, and we should have had these two URLs within it: 
 
 https://www.sixt.com/car-rental/usa/dallas/
 https://www.avis.com/en/locations/us/nv/las-vegas/
@@ -178,14 +176,13 @@ By looking at them, I know that both are using the city as the last folder, henc
 For both of them, we can use the following code: 
 
 ```python
-car_city = internal[internal['pageType']=='Car/City']
-#Add ID column  
+car_city = internal[internal['pageType']=='Car/City'] 
 car_city['ID'] = car_city['Address'].str.extract('.*\/(.*)\/$', regex=True)
 ```
 
 
 
-We can now know how many contents are overlapping between two companies: 
+We can now know what is the content overlap for both companies: 
 
 ```python
 len(pd.Series(list(set(company1_car_city['ID']).intersection(set(company2_car_city['ID'])))))
@@ -193,7 +190,7 @@ len(pd.Series(list(set(company1_car_city['ID']).intersection(set(company2_car_ci
 
 
 
-But, most important, we can extract content that we don’t have but which is performing well for a competitor. 
+But, most important, we can extract content that we don’t have but performing well for a competitor. 
 
 ```python
 company2_car_city[company2_car_city['ID'].isin(company1_car_city['ID'])==False].sort_values(by='Traffic',ascending=False)
@@ -201,7 +198,17 @@ company2_car_city[company2_car_city['ID'].isin(company1_car_city['ID'])==False].
 
 
 
-This part is awesome because if you are working for Avis, it will tell you which cities you don't have but for which Sixt is actually getting traffic. **Detecting missing cities for which you don’t have a page at the moment can be tricky because you are dealing with huge datasets. By using this technique, you can at least detect the most important ones quickly.**
+This part is awesome because if you are working for Avis, it will tell you which cities you don't have, but for which Sixt is actually getting traffic. **Detecting missing cities for which you don’t have a page at the moment can be tricky because you are dealing with huge datasets. By using this technique, you can at least detect the most important ones quickly.**
 
 I applied this technique in several projects and it allowed us to detect key content for specific page types not being covered by our websites when we thought they were. We also discovered nice new opportunities that we don’t even had considered in the first place. 
+
+You can then look at the categories they have but you don't and so on. You will be left with an in-depth analysis of your competitors in term of organic traffic. 
+
+
+
+## Conclusion 
+
+As I indicated at the beginning, I didn't include all the things you need to look at during a benchmark, but I like this approach because it is simple, repeatable and allows you to have a pretty good overview of your competitors and start fighting with them on keywords you hadn't thought about in the first place.
+
+ 
 
