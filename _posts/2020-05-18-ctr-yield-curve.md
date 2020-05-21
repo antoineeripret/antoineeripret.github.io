@@ -18,7 +18,7 @@ In this article, I will walk you through the definition of the concept, why it m
 
 If you are working in SEO, you already know what a yield curve is, you may just not be aware of that yet. I'm sure that you you've seen this kind of graph at some point in your career: 
 
-![](C:\Users\antoi\Documents\GitHub\antoineeripret.github.io\assets\img\ctr-yield-curve-advanced-web-rankings.PNG)
+![](..\assets\img\ctr-yield-curve-advanced-web-rankings.PNG)
 
 *Source:https://www.advancedwebranking.com/ctrstudy/*
 
@@ -53,7 +53,7 @@ Let's imagine that you are working as a SEO for a company offering two services:
 
 You are perfectly aware of the CTR yield curve concept, and you know that in flight related queries, Google promotes its own solution, Google Flights, and the competition is fierce. **Hence, you may expect a lower CTR for the first organic results than in the travel packages vertical, where Google doesn't yet promote its own solution. **
 
-![](C:\Users\antoi\Documents\GitHub\antoineeripret.github.io\assets\img\google-flights.PNG)
+![](..\assets\img\google-flights.PNG)
 
 Some years ago, if you had to prioritize one of these two verticals, you would have taken into account search volume and business metrics like margins etc... to decide which one to choose. Now, you have to take into account the CTR yield curve for your vertical, as the CTR for any given industry can differ a lot. 
 
@@ -105,7 +105,7 @@ Easy? Yes, but not so fast. If we just filter using this methodology, we are lef
 * Branded and non-branded terms usually have huge differences in CTR. We must exclude them as well. 
 * URLs can show up as sitelinks on some generic queries, messing with the CTR we will calculate. We should exclude these cases as well. This one is exactly tricky to spot because a generic query doesn't have a specific pattern, but you will have to go through the process if you don't want to get a skewed analysis. 
 
-![](C:\Users\antoi\Documents\GitHub\antoineeripret.github.io\assets\img\sitelinks-examples.PNG)
+![](..\assets\img\sitelinks-examples.PNG)
 
 
 
@@ -115,7 +115,7 @@ With the data you have at this stage, you should observe that the average positi
 
 **We'll just round the average position column by applying a simple ROUND() function in Excel or Sheets. **
 
-![](C:\Users\antoi\Documents\GitHub\antoineeripret.github.io\assets\img\formula-round-sheets.PNG)
+![](..\assets\img\formula-round-sheets.PNG)
 
 
 
@@ -130,7 +130,7 @@ Then add a calculated field to manually compute the CTR. I honestly don't know h
 
 
 
-![](C:\Users\antoi\Documents\GitHub\antoineeripret.github.io\assets\img\google-sheets-calculated-fields.PNG)
+![](..\assets\img\google-sheets-calculated-fields.PNG)
 
 
 
@@ -180,7 +180,7 @@ Well, the conclusion would not be the same. Indeed, even if the travel packages 
 
 Even if this analysis is not complex, I think it can yield (!) huge benefits and shift completely your priorities. Don't ignore that the main competitor you have in the SERP is Google itself when it displays modules like this and define your priorities based on your data and the **real** traffic potential, not the search volume. 
 
-![](C:\Users\antoi\Documents\GitHub\antoineeripret.github.io\assets\img\serp-height-messi.PNG)
+![](..\assets\img\serp-height-messi.PNG)
 
 
 
