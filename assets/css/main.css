@@ -916,3 +916,9 @@ pre {
   font-style: italic;
   font-size: 1rem;
 }
+
+.center-image
+{
+    margin: 0 auto;
+    display: block;
+}
