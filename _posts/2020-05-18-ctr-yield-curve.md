@@ -130,7 +130,7 @@ Then add a calculated field to manually compute the CTR. I honestly don't know h
 
 
 
-![](..\assets\img\google-sheets-calculated-fields.PNG)
+![](..\assets\img\google-sheets-calculated-fields.PNG){: .center-image }
 
 
 
