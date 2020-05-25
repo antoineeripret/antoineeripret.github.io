@@ -1,10 +1,10 @@
 ---
 layout: post
-permalink: ctr-yield-curve
-title: What is the CTR Yield Curve and why should you care?
-subtitle: Discover one of the least used metrics. 
-meta-title: What is the CTR yield curve and why should you care - Antoine Eripret
-meta-description: Discover one of the most powerful analysis you can do to prioritize your SEO efforts and generate more traffic. 
+permalink: case-study-rank-fast-using-politician-website
+title: Case study: how to take advantage of a politician website
+subtitle: Discover how an affiliate website ranked fast using Marine Le Pen's old website.
+meta-title: Case study: rank fast using a politician website - Antoine Eripret
+meta-description: Discover in this post how an affiliate website used for the 2017 French election to rank fast. 
 comments: true
 ---
 
