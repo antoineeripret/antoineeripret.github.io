@@ -3,6 +3,8 @@ layout: post
 permalink: ctr-yield-curve
 title: What is the CTR Yield Curve and why should you care?
 subtitle: Discover one of the least used metrics. 
+meta-title: What is the CTR yield curve and why should you care - Antoine Eripret
+meta-description: Discover one of the most powerful analysis you can do to prioritize your SEO efforts and generate more traffic. 
 comments: true
 ---
 
@@ -20,7 +22,7 @@ In this article, I will walk you through the definition of the concept, why it m
 
 If you are working in SEO, you already know what a yield curve is, you may just not be aware of that yet. I'm sure that you you've seen this kind of graph at some point in your career: 
 
-![](..\assets\img\ctr-yield-curve-advanced-web-rankings.PNG)
+![CTR yield curve from Advanced web ranking](..\assets\img\ctr-yield-curve-advanced-web-rankings.PNG)
 
 *Source:https://www.advancedwebranking.com/ctrstudy/*
 
@@ -36,7 +38,7 @@ Let's go back some years ago. If you were to search something on Google, you wou
 
 
 
-![](https://3.bp.blogspot.com/-AvJv7Ij7o88/TgoeVDpPU7I/AAAAAAAAAUc/YsFxRhQmc6k/s400/Kennedy+Space+Center.png)
+![Old google serp](https://3.bp.blogspot.com/-AvJv7Ij7o88/TgoeVDpPU7I/AAAAAAAAAUc/YsFxRhQmc6k/s400/Kennedy+Space+Center.png)
 
 
 
@@ -55,7 +57,7 @@ Let's imagine that you are working as a SEO for a company offering two services:
 
 You are perfectly aware of the CTR yield curve concept, and you know that in flight related queries, Google promotes its own solution, Google Flights, and the competition is fierce. **Hence, you may expect a lower CTR for the first organic results than in the travel packages vertical, where Google doesn't yet promote its own solution. **
 
-![](..\assets\img\google-flights.PNG)
+![SERP for the query "vuelos barcelona"](..\assets\img\google-flights.PNG)
 
 Some years ago, if you had to prioritize one of these two verticals, you would have taken into account search volume and business metrics like margins etc... to decide which one to choose. Now, you have to take into account the CTR yield curve for your vertical, as the CTR for any given industry can differ a lot. 
 
@@ -107,7 +109,7 @@ Easy? Yes, but not so fast. If we just filter using this methodology, we are lef
 * Branded and non-branded terms usually have huge differences in CTR. Hence, you should filter you data to exclude branded keywords as they can skew you analysis. 
 * URLs can show up as sitelinks on some generic queries, messing with the CTR we will calculate. We should exclude these cases as well. This one is exactly tricky to spot because a generic query doesn't have a specific pattern, but you will have to go through the process if you don't want to get a skewed analysis. 
 
-![](..\assets\img\sitelinks-examples.PNG)
+![example sitelink](..\assets\img\sitelinks-examples.PNG)
 
 
 
@@ -117,7 +119,7 @@ With the data you have at this stage, you should observe that the average positi
 
 **We'll just round the average position column by applying a simple ROUND() function in Excel or Sheets. **
 
-![](..\assets\img\formula-round-sheets.PNG)
+![how to use the round function in sheets](..\assets\img\formula-round-sheets.PNG)
 
 
 
@@ -132,7 +134,7 @@ Then add a calculated field to manually compute the CTR. I honestly don't know h
 
 
 
-![](..\assets\img\google-sheets-calculated-fields.PNG){: .center-image }
+![how to add a calculated field in sheets](..\assets\img\google-sheets-calculated-fields.PNG){: .center-image }
 
 
 

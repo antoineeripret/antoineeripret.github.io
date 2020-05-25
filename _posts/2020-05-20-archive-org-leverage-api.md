@@ -4,6 +4,9 @@ permalink: extract-urls-wayback-archive-org
 title: Extract a website's URLs from (Wayback) archive.org
 subtitle: How to watch closely your competitors. 
 comments: true
+meta-title: Extract a website's URLs from (wayback) archive.org - Antoine Eripret
+meta-description: Discover how you can use this powerful tool for SEO purpose. 
+share-img: ..\assets\img\archive-org-extract.PNG
 ---
 
 One of the reasons a company may start to look for a SEO agency or freelance is because they messed up a migration and they need to solve it as soon as possible. 
