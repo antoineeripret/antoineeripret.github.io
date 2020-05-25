@@ -1,10 +1,6 @@
 ---
 layout: post
 permalink: case-study-rank-fast-using-politician-website
-title: Case study: how to take advantage of a politician website
-subtitle: Discover how an affiliate website ranked fast using Marine Le Pen's old website.
-meta-description: Discover in this post how an affiliate website used for the 2017 French election to rank fast. 
-meta-title: Case study: rank fast using a politician website - Antoine Eripret
 comments: true
 ---
 
