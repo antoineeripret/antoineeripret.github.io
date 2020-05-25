@@ -8,8 +8,6 @@ meta-description: Discover in this post how an affiliate website used for the Fr
 comments: true
 ---
 
-
-
 The CTR Yield Curve is not a new concept, but it became more important with the load of modules that Google released within its SERPs during the last years. 
 
 It is often an overlooked factor during the keyword research process for existing categories and is, in my opinion, critical to really **assess the traffic you can get and not only look at search volume**. 
