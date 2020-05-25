@@ -154,7 +154,7 @@ But why did the results were so bad if the redirections were implemented correct
 
 
 
-## 2020: End of the golden age?
+## 2020: End of the golden era?
 
 During the last weeks, the website has fallen dramatically, as we can see in the following image: 
 
