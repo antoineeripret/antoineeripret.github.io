@@ -80,7 +80,7 @@ Let me give you a concrete example: imagine that you need to categorize the URLs
 https://fr.getaround.com/location-voiture/france/type/familiale
 https://fr.getaround.com/location-voiture/paris
 
-**We should be able to categorize all URLs following the same pattern as Car/Type and Car/City for instance. ** We can identify these two patterns with a simple REGEX and then assign a category to our URLs. 
+**We should be able to categorize all URLs following the same pattern as Car/Type and Car/City for instance.** We can identify these two patterns with a simple REGEX and then assign a category to our URLs. 
 
 We could do that under Excel or Google Sheets but I prefer to use Python because it offers the possibility of working with huge datasets without worrying about your computer to freeze completely. It's a matter of personal preference but you can apply the same technique in any other language you are comfortable with: **Python is a tool I like to be more efficient, but what really matters is the outcome**.  
 
@@ -102,7 +102,7 @@ internal = pd.read_csv('path/to/your/file.csv')
 traffic = pd.read_csv('path/to/your/file.csv')
 ```
 
-You must repeat the same process for yourself and your competitors, using different variable names obviously. **If you crawled the website and not just exported the sitemap URLs, your file may include a lot of useless columns we don’t need for this analysis. The same comment applies to the SEMRUSH file. **
+You must repeat the same process for yourself and your competitors, using different variable names obviously. **If you crawled the website and not just exported the sitemap URLs, your file may include a lot of useless columns we don’t need for this analysis. The same comment applies to the SEMRUSH file.**
 
 We can then merge these two files to know how many sessions (estimated by SEMRUSH) each URL is generating. The code is pretty simple, aligned with what we’ve seen so far: 
 
