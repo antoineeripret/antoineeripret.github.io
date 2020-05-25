@@ -10,6 +10,8 @@ comments: true
 
 The CTR Yield Curve is not a new concept, but it became more important with the load of modules that Google released within its SERPs during the last years. 
 
+It is often an overlooked factor during the keyword research process for existing categories and is, in my opinion, critical to really **assess the traffic you can get and not only look at search volume**. 
+
 In this article, I will walk you through the definition of the concept, why it matters more than ever and how you can apply it to your SEO strategy to really focus your effort on the content that can bring more traffic. 
 
 
@@ -71,9 +73,9 @@ What we will do is to basically create a table estimating the CTR per position f
 
 Ok, so let's start with the tools you need. You have several option: 
 
-1. Use [this extension](https://searchanalyticsforsheets.com/) for Google Sheets to retrieve your Google Search Console data directly in Google Sheets. Handy if you have a small to medium website or if you have a powerful computer. Indeed, for big websites where the number of rows to be retrieved by the tool can be large, a bit of extra RAM is useful. 
-2. Use [Supermetrics](https://supermetrics.com/), which is a great tool to extract your data from third-parties. It costs 99$ per month though, but really worth the investment if you want to automate your reporting. Not the only company to do that, but the only tool I used at some point . 
-3. Use whatever programming language your are the more comfortable with to query directly the API. I personally use Python, but you can achieve the same with R, Java, PHP etc... 
+1. Use [this extension](https://searchanalyticsforsheets.com/) for Google Sheets to retrieve your Google Search Console data directly in Google Sheets. Handy if you have a small to medium website or if you have a powerful computer. Please note that for big websites, the data extraction can take a while. 
+2. Use [Supermetrics](https://supermetrics.com/), which is a great tool to extract your data from third-parties. It costs 99$ per month, but it's really worth the investment if you want to automate your reporting. 
+3. Use whatever programming language your are more comfortable with to query directly the API. I personally use Python, but you can achieve the same with R, Java, PHP etc... 
 
 
 
@@ -88,9 +90,9 @@ The first step is to filter your GSC data to match the vertical you want to anal
 *  The flight content is located in the **/flights** folder
 * The travel packages content is located in the **/travel** folder
 
-Using GSC filters, you can include only data for URLs including a specific pattern, so this part of fairly easy. I would also suggest to exclude any data where the average position is higher than 10: our objective is to analyze the CTR for the first page only. 
+Using GSC filters, you can filter URLs by specific patterns. I would also suggest to filter out URLs where the average position is higher than 10, since our objective is to analyze the CTR for exclusively the first page.
 
-You should retrieve your data day per day. Why day per day? **Your rankings can evolve during a month, so stick with the average ranking shown by GSC for a full month is not significant enough. We need more granularity.**
+You should retrieve your data day by day. Why day by day? **Your rankings can change significantly during a month, so sticking with the average ranking shown by GSC for a full month is not reliable enough. We need more granularity.**
 
 At this stage, you should end up with a table similar to the following: 
 
@@ -102,7 +104,7 @@ At this stage, you should end up with a table similar to the following:
 
 Easy? Yes, but not so fast. If we just filter using this methodology, we are left with several major flaws: 
 
-* Branded and non-branded terms usually have huge differences in CTR. We must exclude them as well. 
+* Branded and non-branded terms usually have huge differences in CTR. Hence, you should filter you data to exclude branded keywords as they can skew you analysis. 
 * URLs can show up as sitelinks on some generic queries, messing with the CTR we will calculate. We should exclude these cases as well. This one is exactly tricky to spot because a generic query doesn't have a specific pattern, but you will have to go through the process if you don't want to get a skewed analysis. 
 
 ![](..\assets\img\sitelinks-examples.PNG)
@@ -126,7 +128,7 @@ At this stage, you should be able to create a Pivot Table with:
 * Index: Position 
 * Values: Sum of Impressions / Sum of Clicks
 
-Then add a calculated field to manually compute the CTR. I honestly don't know how to add it in Excel, but in Google Sheets you can add it directly using the dropdown from the "Values" section. 
+Then add a calculated field to manually compute the CTR. I honestly don't know how to add it in Excel, but in Google Sheets you can do it directly using the dropdown from the "Values" section. 
 
 
 
@@ -136,9 +138,9 @@ Then add a calculated field to manually compute the CTR. I honestly don't know h
 
 ## Define your priority
 
-Now that you have the CTR Yield Curve using your data, you can that information into account to prioritize your different verticals. Let's walk you through it. 
+Now that you have obtained the CTR Yield Curve using your data, you can take that information into account to prioritize your different verticals. Let’s walk you through it.
 
-In a classical situation, you would prioritize your sections based on the competition, the demand, which in SEO is basically the search volume, and business metrics like margins. **So if all other things are being equal, you would basically prioritize the vertical where the search volume is higher**. You do the keyword research and you estimate that teh global demand for travel packages is 100.000 per month and 150.000 per flights, hence you would argue that if you want to grow your business, the flights section must be prioritized. 
+In a classical situation, you would prioritize your sections based on the competition, the demand, which in SEO is basically the search volume, and business metrics like margins. **So if all other things are being equal, you would basically prioritize the vertical where the search volume is higher**. You do the keyword research and you estimate that the global demand for travel packages is 100.000 per month and 150.000 per flights, hence you would argue that if you want to grow your business, the flights section must be prioritized. 
 
 Ok, now if you run the analysis we just detailed, imagine that you end up with the following CTR data for your verticals: 
 

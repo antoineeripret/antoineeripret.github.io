@@ -6,9 +6,9 @@ subtitle: How to watch closely your competitors.
 comments: true
 ---
 
-Whether you’re just starting out with your online business or you decide to revamp your SEO strategy from scratch to be more visible to your potential customers, analyzing your competitors is essential.
+Whether you’re just starting out with your online business or you decided to revamp your SEO strategy from scratch to be more visible to your potential customers, analyzing your competitors is essential.
 
-Indeed, it’s a rather efficient way to understand what the others are doing better than yourself and if they already implemented a part of the strategy your team and yourself have just come up with. 
+It’s a rather efficient way to understand what the others are doing better than yourself and if they already implemented a part of the strategy your team and yourself have just come up with. 
 
 However, one of the main challenges to perform a relevant SEO benchmark is how can you analyze your competition at scale, meaning without having to look at their Ahrefs or SEMRUSH report line by line, especially when you are working for and competing against big brands. 
 
@@ -18,19 +18,19 @@ However, one of the main challenges to perform a relevant SEO benchmark is how c
 
 ## Define your competition
 
-The first step is essential because you need to be sure to watch closely your main competitors and not websites that are not worth tracking. Please note that we are talking about your **online competitors**, and the list may differ from what you usually perceive as being your competition. 
+The first step is essential because you need to be sure to only focus on your main competitors, and not waste effort on websites that are not worth tracking. Please note that we are talking about your **online competitors**, and the list may differ from what you usually perceive as being your competition. 
 
-Let me give an example: if you are working for a supermarket brand like Carrefour for instance, you wouldn't include in your benchmark any competitor that doesn't allow its customer to buy groceries online, It wouldn't make any sense. 
+Let me give an example: if you are working for a supermarket brand like Wallmart, you wouldn’t include in your benchmark any competitor that doesn’t sell groceries online. It wouldn’t make any sense.
 
 If you are working for a pure player, you should be used to it but often brick-and-mortar business have a hard time understanding that online and offline competition are often different. 
 
-I would advise to try to come up with a short list (around 5) but **if you are competing against different websites depending on the segment, you can obviously define more**. Don't hesitate to include some small companies if you are a big brand, as they often implement things quickly and can quickly be on your tails on some queries. 
+I would advise to try to come up with a short list (around 5) but **if you are competing against different websites depending on the segment, you can obviously define more**. Don’t hesitate to include some small companies if you are a big brand, as it's easier for them to implement things and can quickly be on your tails on some queries.
 
 
 
 ## Get a list of URLs
 
-Once your list is defined, the next step is to gather information about your content and your competitors’. We don’t want to export only their SEMRUSH or Ahrefs organic reports, **because we also want to know which contents are not working for them.** 
+Once your list is defined, the next step is to gather information about your content and your competitors’. We don’t want to only export their SEMRUSH or Ahrefs organic reports, **because we also want to know which contents are not working for them**.
 
 To get that information, two options (the latter being the most efficient): 
 
@@ -65,22 +65,20 @@ Once you have all the crawl data, we must get the traffic estimates from SEMRUSH
 
 
 
-Super simple, right? Yes, but so far we did nothing, so let’s start with what you are looking for! I would advise to use SEMRUSH data for your website as well, even if you have access to your real data. Why? Because **comparing estimates with real data may skew your analysis**. 
+Super simple, right? Yes, but we are just getting started, so let’s follow with what you are looking for! I would advise to use SEMRUSH data for your website as well, even if you have access to your real data. Why? Because **comparing estimates with real data may skew your analysis**. 
 
 
 
 ## Classify URLs
 
-It is impossible to benchmark 1M+ URLs websites against themselves correctly without grouping URLs. What we’ll do is try to find a pattern in the URL structure & create groups for our competitors and ourselves. 
+If you want to compare big websites between themselves, you need to classify URLs first because you can't look at their contents individually. What we’ll do is try to find a pattern in the URL structure & create groups for our competitors and ourselves. 
 
-Let me give you a concrete example: imagine that you need to categorize the URLs from the Getaround's French website. Let's have a look at 2 URLs from the list you would generate:  
+Let me give you a concrete example: imagine that you need to categorize the URLs from the Getaround's French website. Let's have a look at 2 URLs from the list you would look at:  
 
 https://fr.getaround.com/location-voiture/france/type/familiale
 https://fr.getaround.com/location-voiture/paris
 
 **We should be able to categorize all URLs following the same pattern as Car/Type and Car/City for instance. ** We can identify these two patterns with a simple REGEX and then assign a category to our URLs. 
-
-
 
 We could do that under Excel or Google Sheets but I prefer to use Python because it offers the possibility of working with huge datasets without worrying about your computer to freeze completely. It's a matter of personal preference but you can apply the same technique in any other language you are comfortable with: **Python is a tool I like to be more efficient, but what really matters is the outcome**.  
 
