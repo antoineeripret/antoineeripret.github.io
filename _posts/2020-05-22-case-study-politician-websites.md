@@ -8,6 +8,7 @@ meta-description: Discover in this post how an affiliate website used for the 20
 comments: true
 ---
 
+
 Domain reselling is a widely used technique by the SEO community to benefit from the historical results of a domain and rank faster than starting from scratch. Today, I want to walk you through one example, maybe the most interesting one I have ever came into. 
 
 It is fascinating because it involves a politician's website and I think it yielded a tremendous amount of money for the company in charge of this project (if you are really interested to know who, it is not that hard to find the answer). Before getting into more details, here goes a quick introduction on how affiliate websites work, because you will need it to understand completely the example I’m about to get into.
