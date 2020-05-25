@@ -6,6 +6,7 @@ subtitle: Discover how an affiliate website ranked fast using Marine Le Pen's ol
 meta-title: Case study: rank fast using a politician website - Antoine Eripret
 meta-description: Discover in this post how an affiliate website used for the 2017 French election to rank fast. 
 comments: true
+date: May 2nd, 2020
 ---
 
 
