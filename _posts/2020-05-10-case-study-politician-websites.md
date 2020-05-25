@@ -1,6 +1,8 @@
 ---
 layout: post
 permalink: case-study-rank-fast-using-politician-website
+title: Case study: how to take advantage of a politician website
+subtitle: Discover how an affiliate website ranked fast using Marine Le Pen's old website.
 comments: true
 ---
 
