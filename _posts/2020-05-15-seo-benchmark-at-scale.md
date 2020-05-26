@@ -6,7 +6,7 @@ subtitle: How to watch closely your competitors.
 meta-description: Discover how to benchmark quickly your competitors even if they have millions of pages. Save time with this method ! 
 meta-title: How to perform a SEO benchmark at scale - Antoine Eripret
 comments: true
-share-img: https://www.aeripret.com\assets\img\semrush-organic-report.png
+share-img: https://www.aeripret.com/assets/img/semrush-organic-report.png
 ---
 
 Whether you’re just starting out with your online business or you decided to revamp your SEO strategy from scratch to be more visible to your potential customers, analyzing your competitors is essential.
