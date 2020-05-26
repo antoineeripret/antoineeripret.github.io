@@ -6,6 +6,7 @@ subtitle: How to watch closely your competitors.
 meta-description: Discover how to benchmark quickly your competitors even if they have millions of pages. Save time with this method ! 
 meta-title: How to perform a SEO benchmark at scale - Antoine Eripret
 comments: true
+share-img: https://antoineeripret.github.io\assets\img\semrush-organic-report.png
 ---
 
 Whether you’re just starting out with your online business or you decided to revamp your SEO strategy from scratch to be more visible to your potential customers, analyzing your competitors is essential.
@@ -63,7 +64,7 @@ Once you have all the crawl data, we must get the traffic estimates from SEMRUSH
 
 **Go to Organic Research, then the Pages tab and then export everything.** 
 
-![SEMRUSH organic research report](../\assets\img\semrush-organic-report.png)
+![SEMRUSH organic research report](..\assets\img\semrush-organic-report.png)
 
 
 

@@ -6,6 +6,7 @@ subtitle: Discover one of the least used metrics.
 meta-title: What is the CTR yield curve and why should you care - Antoine Eripret
 meta-description: Discover one of the most powerful analysis you can do to prioritize your SEO efforts and generate more traffic. 
 comments: true
+share-img: https://antoineeripret.github.io\assets\img\ctr-yield-curve-advanced-web-rankings.PNG
 ---
 
 

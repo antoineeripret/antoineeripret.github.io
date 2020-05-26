@@ -36,7 +36,7 @@ One of the candidates in 2017 was Marine Le Pen, representing the *Front Nationa
 
 If you go to [archive.org](http://archive.org/), you can see what was the domain looked like back in 2016: 
 
-![marine2017.fr homepage in 2016](..\assets\img\marine2017.fr-homepage-in-2016.PNG)
+![marine2017.fr homepage in 2016](..\assets\img\marine2017.fr-homepage-in-2016.jpg)
 
 This kind of websites usually receive a lot of backlinks before and during the campaign because news websites use them as the main source to understand the different candidates’ programs. This was also the case with Marine Le Pen's website as you can see in the chart below: 
 
