@@ -236,7 +236,7 @@ You can ruin months of hard work by making this mistake, so even if you think yo
 
 **I can’t stress this enough: DO NOT DEACTIVATE YOUR PAGES.**
 
-<img src="C:\Users\antoi\Documents\GitHub\antoineeripret.github.io\assets\img\logo-stop.png" style="zoom: 33%;" />
+![](C:\Users\antoi\Documents\GitHub\antoineeripret.github.io\assets\img\logo-stop.png)
 
 
 
