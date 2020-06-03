@@ -77,7 +77,7 @@ Nevertheless, we also observe similar behavior for some of the breed library con
 
 They also decided to remove similar content they had on dog sizes, ranking on keywords with decent search volume. 
 
-![semrush url overview removed content](C:\Users\antoi\Documents\GitHub\antoineeripret.github.io\assets\img\semrush-url-overview-removed-content.png)
+![semrush url overview removed content](..\assets\img\semrush-url-overview-removed-content.png)
 
 We may have found one of the big reasons they dropped after the migration: some of the best contents indeed have not been included in the migration, causing drop or disappearance for some keywords. 
 
