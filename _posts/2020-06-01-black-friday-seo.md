@@ -226,7 +226,7 @@ This update must be scheduled before the Black Friday and activated once your pr
 
 - **Track noindex**
 
-I’ve seen so many websites adding noindex to their pages during the Black Friday, simply because they had it in the development environment, pushed it to live environment but forgot to update this part of the code. Please watch this carefully or invest in a monitoring tool like [Content King](https://www.contentkingapp.com/) or[ Little Warden](https://littlewarden.com/) to have your back. 
+I’ve seen so many websites adding noindex to their pages during the Black Friday, simply because they had it in the development environment, pushed it to live environment but forgot to update this part of the code. Please watch this carefully or invest in a monitoring tool like [ContentKing](https://www.contentkingapp.com/) or[ Little Warden](https://littlewarden.com/) to have your back. 
 
 You can ruin months of hard work by making this mistake, so even if you think you don’t need these tools throughout the year, just invest in one of them in November. 
 
