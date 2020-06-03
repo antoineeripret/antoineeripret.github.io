@@ -1,9 +1,9 @@
 ---
 layout: post
 permalink: case-study-royal-canin-migration
-title: What can we learn from Royal Canin's migration (Case Study)
+title: What can we learn from Royal Canin's migration (Case Study)?
 subtitle: A great example on impact some choices can have on your SEO. 
-meta-title: What can we learn from Royal Canin's migration (Case Study) - Antoine Eripret
+meta-title: What can we learn from Royal Canin's migration (Case Study)? - Antoine Eripret
 meta-description: Discover a full analysis of the web migration done by Royal Canin in 2019 and its consequences. 
 share-img: https://www.aeripret.com/assets/img/sistrix-comparison-royal-canin.png
 comments: true
