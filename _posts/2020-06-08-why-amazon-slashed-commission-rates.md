@@ -94,7 +94,7 @@ Based on the data I extracted from our 14.168 queries, I detected that around **
 
 **Please note that this percentage was obtained adding results where amazon.es appeared (10.6%) but also amazon.com (0.4%), that can ranked in some cases.** 
 
-Moreover, if I extract the exact same number, but per position, you realize that Amazon's results are very concentrated within the first positions. What does it mean? **That even if Amazon has 11% of the total results, the traffic share it gets is higher because the first 3 results usually get between 50 and 80 percent of the clicks (it depends on the industry and the device). ** 
+Moreover, if I extract the exact same number, but per position, you realize that Amazon's results are very concentrated within the first positions. What does it mean? **That even if Amazon has 11% of the total results, the traffic share it gets is higher because the first 3 results usually get between 50 and 80 percent of the clicks (it depends on the industry and the device).** 
 
 
 
