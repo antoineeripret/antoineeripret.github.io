@@ -98,7 +98,7 @@ Moreover, if I extract the exact same number, but per position, you realize that
 
 
 
-![frequency graph amazon per position](..\assets\img\matplotlib-amazon-%-per-position.PNG)
+![frequency graph amazon per position](C:\Users\antoi\Downloads\matplotlib-amazon-per-position.PNG)
 
 This is great, but what we actually want to figure now, it the real visibility Amazon has, with its own websites but also with its affiliate network. Will it make a great difference? 
 
@@ -112,7 +112,7 @@ If we add affiliates in the previous graph, we end up having not 11% but 16% of 
 
 Regarding repartition, affiliate are usually located lower than Amazon on Google: 
 
-![frequency graph amazon and affiliates per position](..\assets\img\matplotlib-amazon-%-per-position-with-affiliates.PNG)
+![frequency graph amazon and affiliates per position](..\assets\img\matplotlib-amazon-per-position-with-affiliates.PNG)
 
 
 
