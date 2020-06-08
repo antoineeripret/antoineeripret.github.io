@@ -194,6 +194,8 @@ Here are the pieces of code used to get all the information mentioned in this ar
 
 #### Initial load 
 
+
+
 ```python
 #Import Pandas
 import pandas as pd 
@@ -241,6 +243,8 @@ outlinks = outlinks[(outlinks['Domain']=='amazon.es')|(outlinks['Domain']=='amaz
 
 #### Frequency table of number of Amazon's results per query 
 
+
+
 ```python
 def number_amazon_results(df):
     df['Number_amazon_results'] = np.sum(df.str.contains('https://www.amazon'))
@@ -255,6 +259,8 @@ data['Number_amazon_results'].value_counts().sort_index()
 
 #### Number of search results from Amazon
 
+
+
 ```python
 def number_amazon_search_results(df):
     df['Number_amazon_search_results'] = np.sum((df.str.contains('https://www.amazon'))&(df.str.contains('k=')))
@@ -268,6 +274,8 @@ data['Number_amazon_search_results'].value_counts().sort_index()
 
 
 #### Amazon's market share per position
+
+
 
 ```python
 #List we will use to gather our data 
@@ -288,6 +296,8 @@ out.plot(kind='bar',x='Position',y='%',figsize=(8,8))
 
 
 #### Amazon & affiliates' market share per position 
+
+
 
 ```python
 #See above
@@ -310,4 +320,4 @@ merge.plot(kind='bar',stacked=True, figsize=(7,7))
 
 
 
-I thinks I covered everything. I hope this bit of transparency will help you understand better how the analysis was performed. 
+I think I covered everything. I hope this bit of transparency will help you understand better how the analysis was performed. 
