@@ -138,7 +138,7 @@ If you are here, your are interested in the full methodology. I will try to expl
 
 ### Keyword Selection
 
-The full keyword list can be downloaded here. The list was obtained following these steps: 
+The full keyword list can be [downloaded here](https://www.aeripret.com/assets/files/keywords.xlsx). The list was obtained following these steps: 
 
 * Extract the keyword list from amazon.es in SEMRUSH. I don't think that my data are Amazon-oriented by doing that because there are actually very few commercial keywords where Amazon won't be ranked within the first 100 results. It is a good way to get an extensive list of commercial keywords. 
 * To be sure to exclude most non-commercial keywords, I filter the keyword list to include only keywords where the "Shopping" module would be present. 
