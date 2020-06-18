@@ -6,7 +6,7 @@ subtitle: An explanation of why and how it happens.
 comments: true
 meta-title: How newspapers leverage subdomain leasing? - Antoine Eripret
 meta-description: Discover how newpapers leverage subdomain leasing to rank fast in some industries.  
-share-img: https://www.aeripret.com/assets\img\keyword-research.png
+share-img: https://www.aeripret.com/assets\img\serp-cupon-adidas.png
 ---
 
 If you have been paying attention to the SERP landscape during the last years, you may have observed that a number of successful domains were operating under a subdomain or subfolder of another brand. 
