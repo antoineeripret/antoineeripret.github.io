@@ -2,7 +2,7 @@
 layout: post
 permalink: brecha-genero-seo-espana
 title: (Español) La Brecha de Género en el SEO en España
-subtitle: Un análisis de la situación el el páis dónde vivo. 
+subtitle: Un análisis de la situación en el país donde vivo. 
 comments: true
 meta-title: La Brecha de Género en el SEO en España - Antoine Eripret
 meta-description: Desubre mi análisis de la situación en España. 
